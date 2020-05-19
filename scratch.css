@@ -41,6 +41,16 @@ body {
 
   }
 
+  .columnf {
+    float: left;
+    width: auto;
+    font-family:system-ui;
+    height: 20vw;
+    margin-top:6vw;
+    margin-bottom:6vw;
+
+  }
+
 
   /* Clear floats after the columns */
   .row:after {
@@ -118,6 +128,7 @@ body {
 .containerp-is{
   display:grid;
       margin-right: 3vw;
+      margin-top: 0vw;
   
   grid-template-columns: 4vw 19.5vw 19.5vw ;
   grid-template-rows: auto 1vw auto auto 11vw;
@@ -143,7 +154,7 @@ body {
         margin-right: 3vw;
     
     grid-template-columns: 4vw 19.5vw 19.5vw ;
-    grid-template-rows: auto 1vw 11vw 11vw 11vw;
+    grid-template-rows: 5vw 1vw 11vw 11vw 11vw;
     
     column-gap: 1.5vw;
     row-gap: 1.5vw;
