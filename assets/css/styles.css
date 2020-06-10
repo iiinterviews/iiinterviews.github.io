@@ -1,0 +1,26 @@
+.bbold {
+    font-weight: 700;
+}
+
+.underline {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.underline:after {
+    border-left: 1px solid #f00;
+    content: '';
+    display: block;
+    width: 50%;
+  }
+
+.underline--center:after {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+.abcd{
+    font-family: montserrat;
+    font-variant-numeric: oldstyle-nums;
+}
