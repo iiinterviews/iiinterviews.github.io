@@ -9,15 +9,11 @@ function createEntry(){
     base('name_of_table').create([
       {
         "fields": {
-          "Name": "velvet gloves",
+          "Name": "Vinit",
           "date": datt
         }
       },
-      {
-        "fields": {
-          "date": "2020-06-29"
-        }
-      }
+     
     ], function(err, records) {
       if (err) {
         console.error(err);
@@ -27,5 +23,27 @@ function createEntry(){
         console.log(record.getId());
       });
     });
+
+}
+function createEntry_C(){
+  console.log("!!!! createee");
+
+  base('name_of_table').create([
+    {
+      "fields": {
+        "Name": "Charmie",
+        "date": datt
+      }
+    },
+   
+  ], function(err, records) {
+    if (err) {
+      console.error(err);
+      return;
+    }
+    records.forEach(function (record) {
+      console.log(record.getId());
+    });
+  });
 
 }
