@@ -6,7 +6,7 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
   exit();
 }
 
-include_once("index.html"); 
+include_once("home.html"); 
 
 ?>
 
