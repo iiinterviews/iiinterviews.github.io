@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
 
+@font-face {
+  font-family: Georama;
+  src: url('fonts/Georama[wdth,wght].ttf') format('truetype');
+
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: 'dm sans', sans-serif;
+  font-family: 'georama', sans-serif;
 }
 
 
@@ -32,7 +38,7 @@ body{
 
 
 .text{
-  font-family: dm sans, sans-serif;
+  font-family: georama, sans-serif;
   font-size: 2.5vw;
 }
 
